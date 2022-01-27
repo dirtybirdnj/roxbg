@@ -1,0 +1,469 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "seaQhLVS4bbjiGvJJrRwyL",
+      "projectApiToken": "nPw276qGsy9kISQCHrcRrsj3Y9Yva9TMyYKNUpoOMOHgRj1A51qOC6LMB2185QlA52K87n32oQJHSi5be9w",
+      "projectName": "LIBRARY Plasmic Color + Type",
+      "version": "15.0.3",
+      "cssFilePath": "plasmic/library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "codeComponents": []
+    },
+    {
+      "projectId": "js7xbhyMDXu3U4xUyjvjor",
+      "projectApiToken": "JjpaswYphqehcSgPJBKxvuAgXhpDgKz0rqXim2mlu7uTnn7sCf3C9MFc5IqELwxIDxuojEl3zVMDAvFHQA",
+      "projectName": "Roxborough Greens",
+      "version": "latest",
+      "cssFilePath": "plasmic/roxborough_greens/plasmic_roxborough_greens.module.css",
+      "components": [
+        {
+          "id": "FbwSY7aFxRj",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "-Ea7nJbv4LT",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "X4oZepRJzT2",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "i3ROZ-xmrQe",
+          "name": "FeatureCard",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicFeatureCard.jsx",
+          "importSpec": {
+            "modulePath": "FeatureCard.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicFeatureCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lofnJGIDRQ7",
+          "name": "HomeCta",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicHomeCta.jsx",
+          "importSpec": {
+            "modulePath": "HomeCta.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicHomeCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "T3mHUQZQJyC",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicIconLink.jsx",
+          "importSpec": {
+            "modulePath": "IconLink.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "BtGrupevbnBt",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicTestimonial.jsx",
+          "importSpec": {
+            "modulePath": "Testimonial.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "G_AdUXA_nbCK",
+          "name": "Avatar",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicAvatar.jsx",
+          "importSpec": {
+            "modulePath": "Avatar.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ni0K1A4tOJWP",
+          "name": "Pricing",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicPricing.jsx",
+          "importSpec": {
+            "modulePath": "../pages/pricing.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicPricing.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "X2gnIPCpavDJ",
+          "name": "BaseCard",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicBaseCard.jsx",
+          "importSpec": {
+            "modulePath": "BaseCard.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicBaseCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_ZfdqakQbQQm",
+          "name": "Plan",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicPlan.jsx",
+          "importSpec": {
+            "modulePath": "Plan.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicPlan.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nYibJbFtbN5Z",
+          "name": "Bullet",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicBullet.jsx",
+          "importSpec": {
+            "modulePath": "Bullet.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicBullet.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QhVGM4DbWBIt",
+          "name": "Faq",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicFaq.jsx",
+          "importSpec": {
+            "modulePath": "Faq.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ExOs7kFAqw5B",
+          "name": "Features",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicFeatures.jsx",
+          "importSpec": {
+            "modulePath": "../pages/features.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicFeatures.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "tpSziDxebW_u",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicSection.jsx",
+          "importSpec": {
+            "modulePath": "Section.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "c29AL5vCZlog",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "Mrk7UJLJOd-F",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "pvpicHeKikM",
+          "name": "Home2",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicHome2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/home.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicHome2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "XuEpLOHyyy",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "foL6cdpVnQ",
+          "name": "Information",
+          "type": "managed",
+          "projectId": "js7xbhyMDXu3U4xUyjvjor",
+          "renderModuleFilePath": "plasmic/roxborough_greens/PlasmicInformation.jsx",
+          "importSpec": {
+            "modulePath": "../pages/info.jsx"
+          },
+          "cssFilePath": "plasmic/roxborough_greens/PlasmicInformation.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "CE3fXjOMSnEz",
+          "name": "TwitterIconIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__TwitterIcon.jsx"
+        },
+        {
+          "id": "h_IFZJb1VV8o",
+          "name": "GithubIconIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__GithubIcon.jsx"
+        },
+        {
+          "id": "imSJzGCXpL68",
+          "name": "FacebookIconIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__FacebookIcon.jsx"
+        },
+        {
+          "id": "RFtqQUgrQNcK",
+          "name": "FacebookLogoIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__FacebookLogo.jsx"
+        },
+        {
+          "id": "jwetpln2842F",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Logo.jsx"
+        },
+        {
+          "id": "jtQPMpmYugBB",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Sphere.jsx"
+        },
+        {
+          "id": "HdY5QaOVypMq",
+          "name": "QuoteDashesIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__QuoteDashes.jsx"
+        },
+        {
+          "id": "ywBojQeHzt8E",
+          "name": "TinderLogoIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__TinderLogo.jsx"
+        },
+        {
+          "id": "4wLqS75hbryM",
+          "name": "AirbnbLogoIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__AirbnbLogo.jsx"
+        },
+        {
+          "id": "tcVtvsGDiVdA",
+          "name": "HubspotLogoIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__HubspotLogo.jsx"
+        },
+        {
+          "id": "DRjSnvIw-76R",
+          "name": "AmazonLogoIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__AmazonLogo.jsx"
+        },
+        {
+          "id": "b-9lCkq3kulA",
+          "name": "SwapIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Swap.jsx"
+        },
+        {
+          "id": "Plu3gFX59akc",
+          "name": "SlotIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Slot.jsx"
+        },
+        {
+          "id": "akEcJ0Sizz7a",
+          "name": "CycleIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Cycle.jsx"
+        },
+        {
+          "id": "od24fmHU26Zb",
+          "name": "HammerIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Hammer.jsx"
+        },
+        {
+          "id": "tcgGnutb-adQ",
+          "name": "PencilIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Pencil.jsx"
+        },
+        {
+          "id": "oGwXFUsb7-cP",
+          "name": "LightningIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Lightning.jsx"
+        },
+        {
+          "id": "TQFP_ilZ5Pvd",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__RightArrow.jsx"
+        },
+        {
+          "id": "-mDPQMTT-Eva",
+          "name": "Done24Pxsvg2Icon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Done24Pxsvg2.jsx"
+        },
+        {
+          "id": "JmQOAtCiql6G",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "94zizn_MY4hX",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "8qi_tbW2QVX3",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "FNlDhmV9w",
+          "name": "WhiteFlowersIcon",
+          "moduleFilePath": "plasmic/roxborough_greens/icons/PlasmicIcon__WhiteFlowers.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "eBJCYe_Sgb5N",
+          "name": "profilepic",
+          "filePath": "../public/plasmic/roxborough_greens/images/profilepic.png"
+        },
+        {
+          "id": "aDnjNr9BjZdr",
+          "name": "task",
+          "filePath": "../public/plasmic/roxborough_greens/images/task.png"
+        },
+        {
+          "id": "-i9bzmhd0Xht",
+          "name": "simple-project",
+          "filePath": "../public/plasmic/roxborough_greens/images/simpleProject.png"
+        },
+        {
+          "id": "Qr-JQ7BYQe8c",
+          "name": "hero-image",
+          "filePath": "../public/plasmic/roxborough_greens/images/heroImage.png"
+        },
+        {
+          "id": "jUI0AQxGv",
+          "name": "greens",
+          "filePath": "../public/plasmic/roxborough_greens/images/greens.jpeg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "CS1189Nl9nXB",
+        "name": "Screen",
+        "projectId": "js7xbhyMDXu3U4xUyjvjor",
+        "contextFilePath": "plasmic/roxborough_greens/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
